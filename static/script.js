@@ -19,12 +19,12 @@ function getAbsoluteTop(elem) {
   var $storyEach = document.getElementById("story-each");
   var $storyTogether = document.getElementById("story-together");
 
-  var $jyThumb = document.getElementById("jaeyoung-thumb");
+  var $jyThumb = document.getElementById("tin-thumb");
   var $jyIcon = $jyThumb.children[0];
-  var $jyContents = Array.from(document.getElementsByClassName("content jaeyoung"));
-  var $syThumb = document.getElementById("soyoung-thumb");
+  var $jyContents = Array.from(document.getElementsByClassName("content tin"));
+  var $syThumb = document.getElementById("thao-thumb");
   var $syIcon = $syThumb.children[0];
-  var $syContents = Array.from(document.getElementsByClassName("content soyoung"));
+  var $syContents = Array.from(document.getElementsByClassName("content thao"));
   var $togetherContent = document.getElementsByClassName("content together")[0];
 
   var jyIconHolders = ['baby', 'boy', 'man', 'couple'];

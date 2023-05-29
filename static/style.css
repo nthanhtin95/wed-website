@@ -267,14 +267,14 @@ section .clearfix:after {
   margin-top: 10vh;
 }
 
-#story-each .jaeyoung {
+#story-each .tin {
   float: left;
 }
 
-#story-each .soyoung {
+#story-each .thao {
   float: right;
 }
-#story-each .soyoung h3 {
+#story-each .thao h3 {
   text-align: right;
 }
 
@@ -338,10 +338,10 @@ section .clearfix:after {
   transition: right .25s ease-in-out, left .25s ease-in-out, transform .25s ease-in-out;
 }
 
-#playground .thumb.jaeyoung { 
+#playground .thumb.tin { 
   left: 0;
 }
-#playground .thumb.soyoung { 
+#playground .thumb.thao { 
   right: 0;
 }
 
@@ -580,8 +580,8 @@ section .clearfix:after {
 }
 .photoset .photoset-row .photoset-item a {
   display: block;
-  width: 100%;
-  height: 100%;
+  width: fit-content;
+  height: fit-content;
   position: relative;
   border: 0;
 }
