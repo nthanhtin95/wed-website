@@ -113,13 +113,9 @@ section .clearfix:after {
 }
 
 #front .date-time {
-  float: left;
+  float: center;
+  text-align: center;
 }
-
-#front .location {
-  float: right;
-}
-
 
 #front .overlay {
   position: absolute;
