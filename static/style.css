@@ -86,7 +86,7 @@ section .clearfix:after {
   bottom: 0;
   background-image: url('./front.jpg');
   background-repeat: no-repeat;
-  background-position: center top 40%;
+  background-position: center center;
   background-size: cover;
   opacity: .8;
   content: '';
