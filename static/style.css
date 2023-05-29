@@ -115,6 +115,8 @@ section .clearfix:after {
 #front .date-time {
   float: center;
   text-align: center;
+  font-family: 'Distant Stroke';
+  font-size: 1.3rem;
 }
 
 #front .overlay {
