@@ -107,17 +107,10 @@ section .clearfix:after {
 
 #front p {
   line-height: 1rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
   color: #ffffff;
-}
-
-#front .date-time {
-  line-height: 3rem;
-  text-align: center;
   font-family: 'Distant Stroke';
-  font-size: 1.3rem;
-  position: relative;
 }
 
 #front .overlay {
