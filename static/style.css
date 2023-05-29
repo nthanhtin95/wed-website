@@ -95,13 +95,12 @@ section .clearfix:after {
 #front h1 {
   line-height: 5rem;
   font-size: 2.5rem;
-  margin-bottom: -0.3rem;
   text-align: center;
 }
 
 #front h2 {
   padding: .5rem 0;
-  line-height: 2rem;
+  line-height: 3rem;
   font-size: 3rem;
   text-align: center;
 }
@@ -112,6 +111,15 @@ section .clearfix:after {
   text-align: center;
   color: #ffffff;
 }
+
+#front .date-time {
+  float: left;
+}
+
+#front .location {
+  float: right;
+}
+
 
 #front .overlay {
   position: absolute;
