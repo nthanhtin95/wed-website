@@ -1,3 +1,13 @@
+<SCRIPT>
+function ShowAndHide() {
+    var x = document.getElementById('showMe');
+    if (x.style.display == 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</SCRIPT>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -22,6 +32,21 @@
 
       <div class="overlay"></div>
 
+    </section>
+
+    <section id="our-story">
+      <h1 onclick="ShowAndHide()">Our Story</h1>
+      <div id="showMe" style="display:none">
+        <br>Our beautiful journey began in November 2014 when our paths intertwined at Santa Ana College. Three magical years unfolded, filled with shared dreams and cherished moments, as Tin graduated from Cal State Pomona and Thao embarked on her own transformative journey, transferring to Fullerton Cal State.
+        <br>
+        <br>In 2018, Tin's pursuit of a Master's Degree led him to San Jose, and from that moment, our love story took on the enchanting essence of a long-distance relationship. Though the miles stretched between us, our hearts remained steadfast, fueled by a love that knew no bounds. Yet, it wasn't always easy. We both experienced moments of uncertainty and longing, unsure of how to navigate the challenges that lay before us. Tin's search for a job added an extra layer of difficulty, making it hard to bridge the mere 400 miles that kept us apart.
+        <br>
+        <br>Then came March 2020, a time when the world was gripped by an unprecedented pandemic. The hardships we faced became even more daunting as we were separated not only from each other but also from our beloved families in Vietnam. Six months passed, marked by frustration and aching hearts as we yearned for the warmth of togetherness.
+        <br>
+        <br>But amidst the trials, a glimmer of hope emerged in August 2020 when Tin secured a remarkable job opportunity in Boston, beckoning him to a new chapter in life, 3,000 miles away. And a year later, Thao, having achieved the culmination of her Bachelor's Degree, made the heartfelt decision to return to the embrace of her homeland, Vietnam, widening the distance to a staggering 8,000 miles.
+        <br>
+        <br>Our unwavering love, nurtured by the power of hope and the unwavering support of our cherished families and friends, has carried us through these extraordinary circumstances. With immense joy and overflowing gratitude, we are thrilled to announce our upcoming wedding on June 25th, 2023. It is with profound love and sincerity that we invite you to share in our celebration of love and commitment. Your presence in our lives has been a blessing, and we thank you from the depths of our hearts for the immeasurable love and support that have brought us to this momentous day.
+      </div>
     </section>
 
     <section id="story-each">
@@ -178,7 +203,6 @@
           <span class="tf xsmall woman-with-veil"></span>
         </p>
         <p>&nbsp;</p>
-        <p>placeholder</p>
 
         <!-- <div class="photoset">
           <div class="photoset-row">
